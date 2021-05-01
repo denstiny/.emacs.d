@@ -165,5 +165,7 @@ decrease this. If you experience stuttering, increase this.")
 (require 'init-web)
 (require 'init-evil)
 (require 'init-eaf)
+(require 'init-rime)
+(require 'init-nyan)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init.el ends here

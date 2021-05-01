@@ -192,7 +192,7 @@ prepended to the element after the #+HEADER: tag."
   ;; Babel
   (setq org-confirm-babel-evaluate nil
         org-src-fontify-natively t
-        org-src-tab-acts-natively t)
+        org-src-tab-acts-natively nil)
 
   (defvar load-language-list '((emacs-lisp . t)
                                (perl . t)

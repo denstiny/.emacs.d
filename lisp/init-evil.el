@@ -16,3 +16,7 @@
 (define-key evil-normal-state-map (kbd "gs") 'dumb-jump-go)
 ;; 跳转定义 gd
 (provide 'init-evil)
+;; 快速运行
+(define-key evil-normal-state-map (kbd ";r") 'quickrun)
+;; 快速编译
+(define-key evil-normal-state-map (kbd ";d") 'evil-make)
