@@ -305,6 +305,7 @@ prepended to the element after the #+HEADER: tag."
           (if (featurep 'xwidget-internal)
               (centaur-webkit-browse-url url t)
             (browse-url url)))))))
+(setq org-image-actual-width '(600))
 
 (provide 'init-org)
 

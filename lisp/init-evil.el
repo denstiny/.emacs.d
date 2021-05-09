@@ -20,3 +20,6 @@
 (define-key evil-normal-state-map (kbd ";r") 'quickrun)
 ;; 快速编译
 (define-key evil-normal-state-map (kbd ";d") 'evil-make)
+;; org mode 标签
+(define-key evil-insert-state-map (kbd "C-l") 'org-metaright)
+(define-key evil-normal-state-map (kbd "C-h") 'org-metaleft)
